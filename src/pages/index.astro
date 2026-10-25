@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import body from "../partials/home.html?raw";
+---
+<Layout
+  title="Câmbio Empresas | Soluções Globais em Câmbio, Trade Finance e Tesouraria B2B"
+  description="Representação institucional oficial Ouribank, Moneycorp Banco de câmbio e Tensec. Entendemos a operação da sua empresa e direcionamos para o parceiro ideal."
+>
+  <Fragment set:html={body} />
+</Layout>

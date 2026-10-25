@@ -1,0 +1,913 @@
+<!-- REUSABLE SVG DEFINITIONS FOR OFFICIAL LOGOS (OURIBANK, MONEYCORP, TENSEC) -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" class="absolute overflow-hidden pointer-events-none" aria-hidden="true">
+        <!-- 1. Official Ouribank Logo Symbol -->
+        <symbol id="logo-ouribank" viewBox="0 0 380 105">
+            <!-- Left Compass/Ring Icon in #0d2329 -->
+            <g transform="translate(8, 12)">
+                <!-- Open circular arc (gap at top-right) -->
+                <path d="M 42 12 A 32 32 0 1 0 70 48" fill="none" stroke="#0d2329" stroke-width="6.5" stroke-linecap="round"/>
+                <!-- Tilted diamond/rhombus pointing top-right -->
+                <polygon points="36,44 45,14 75,4 64,35" fill="none" stroke="#0d2329" stroke-width="6" stroke-linejoin="round"/>
+            </g>
+            <!-- Wordmark: ouri (bold) + bank (regular) -->
+            <text x="95" y="61" font-family="'Plus Jakarta Sans', sans-serif" font-size="52" fill="#0d2329" letter-spacing="-1">
+                <tspan font-weight="800">ouri</tspan><tspan font-weight="400">bank</tspan>
+            </text>
+            <!-- Subtitle: O banco que abre o mundo -->
+            <text x="97" y="88" font-family="'Plus Jakarta Sans', sans-serif" font-size="16.5" font-weight="400" fill="#0d2329" letter-spacing="0.4">
+                O banco que abre o mundo
+            </text>
+        </symbol>
+
+        <!-- 2. Official Moneycorp Banco de câmbio Logo Symbol -->
+        <symbol id="logo-moneycorp" viewBox="0 0 410 115">
+            <!-- Main Wordmark: money (#c80815) + corp (#52738c) -->
+            <text x="8" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="55" font-weight="700" letter-spacing="-1.2">
+                <tspan fill="#c80815">money</tspan><tspan fill="#52738c">corp</tspan>
+            </text>
+            <!-- Subtitle: Banco de câmbio -->
+            <text x="10" y="96" font-family="'Plus Jakarta Sans', sans-serif" font-size="21" font-weight="700" fill="#52738c" letter-spacing="-0.2">
+                Banco de câmbio
+            </text>
+            <!-- Top-right Red 4-Pointed Curved Star with White Diamond Cutout -->
+            <g transform="translate(362, 26) rotate(11)">
+                <path d="M 0 -27 Q 3 -3 27 0 Q 3 3 0 27 Q -3 3 -27 0 Q -3 -3 0 -27 Z" fill="#c80815"/>
+                <path d="M 0 -10 Q 1.5 -1.5 10 0 Q 1.5 1.5 0 10 Q -1.5 1.5 -10 0 Q -1.5 -1.5 0 -10 Z" fill="#ffffff"/>
+            </g>
+        </symbol>
+
+        <!-- 3. Official Tensec Logo Symbol -->
+        <symbol id="logo-tensec" viewBox="0 0 360 105">
+            <!-- Left Blue Sun/Burst Icon -->
+            <g transform="translate(52, 53)">
+                <!-- Center solid blue circle -->
+                <circle cx="0" cy="0" r="14.5" fill="#3b82f6"/>
+                <!-- 6 Radial Rounded Pill Bars (every 60 deg, tilted) -->
+                <g fill="#3b82f6">
+                    <rect x="-4.5" y="-39" width="9" height="19" rx="4.5" transform="rotate(-12)"/>
+                    <rect x="-4.5" y="-39" width="9" height="19" rx="4.5" transform="rotate(48)"/>
+                    <rect x="-4.5" y="-39" width="9" height="19" rx="4.5" transform="rotate(108)"/>
+                    <rect x="-4.5" y="-39" width="9" height="19" rx="4.5" transform="rotate(168)"/>
+                    <rect x="-4.5" y="-39" width="9" height="19" rx="4.5" transform="rotate(228)"/>
+                    <rect x="-4.5" y="-39" width="9" height="19" rx="4.5" transform="rotate(288)"/>
+                </g>
+                <!-- 6 Alternating Blue Dots (every 60 deg, offset by 30 deg) -->
+                <g fill="#2563eb">
+                    <circle cx="0" cy="-27" r="4.8" transform="rotate(18)"/>
+                    <circle cx="0" cy="-27" r="4.8" transform="rotate(78)"/>
+                    <circle cx="0" cy="-27" r="4.8" transform="rotate(138)"/>
+                    <circle cx="0" cy="-27" r="4.8" transform="rotate(198)"/>
+                    <circle cx="0" cy="-27" r="4.8" transform="rotate(258)"/>
+                    <circle cx="0" cy="-27" r="4.8" transform="rotate(318)"/>
+                </g>
+            </g>
+            <!-- Right Wordmark: tensec in lowercase black -->
+            <text x="112" y="71" font-family="'Plus Jakarta Sans', sans-serif" font-size="60" font-weight="500" fill="#000000" letter-spacing="-1.5">
+                tensec
+            </text>
+        </symbol>
+    </svg>
+
+    <!-- TOP INSTITUTIONAL BAR & FX SOLUTIONS TICKER -->
+    <div class="bg-slate-50 border-b border-slate-200 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-10 flex items-center justify-between gap-4">
+            
+            <!-- Commercial Reference Ticker -->
+            <div class="flex items-center gap-2 overflow-hidden flex-1">
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-bold whitespace-nowrap border border-emerald-200">
+                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-ping"></span>
+                    <span data-i18n="top_status">ATENDIMENTO CORPORATIVO</span>
+                </span>
+                <div class="overflow-hidden flex-1 relative">
+                    <div class="animate-ticker items-center gap-6 font-mono text-[11px] text-slate-600">
+                        <span><strong class="text-slate-900">USD/BRL</strong> COMERCIAL <span class="text-emerald-600 font-semibold">D+0 / D+1</span></span>
+                        <span class="text-slate-300">•</span>
+                        <span><strong class="text-slate-900">EUR/BRL</strong> CORPORATIVO <span class="text-blue-700 font-semibold">OPERAÇÕES ESTRUTURADAS</span></span>
+                        <span class="text-slate-300">•</span>
+                        <span><strong class="text-slate-900">GBP/BRL</strong> COMERCIAL <span class="text-emerald-600 font-semibold">LIQUIDAÇÃO ÁGIL</span></span>
+                        <span class="text-slate-300">•</span>
+                        <span><strong class="text-slate-900">CNY/BRL</strong> IMPORTAÇÃO DIRETA <span class="text-amber-700 font-semibold">TRADE FINANCE</span></span>
+                        <span class="text-slate-300">•</span>
+                        <span><strong class="text-slate-900">FEDWIRE / ACH / SWIFT GPI</strong> <span class="text-blue-700 font-semibold">+150 PAÍSES | +70 MOEDAS</span></span>
+                        <span class="text-slate-300">•</span>
+                        <!-- Duplicated for seamless loop -->
+                        <span><strong class="text-slate-900">USD/BRL</strong> COMERCIAL <span class="text-emerald-600 font-semibold">D+0 / D+1</span></span>
+                        <span class="text-slate-300">•</span>
+                        <span><strong class="text-slate-900">EUR/BRL</strong> CORPORATIVO <span class="text-blue-700 font-semibold">OPERAÇÕES ESTRUTURADAS</span></span>
+                        <span class="text-slate-300">•</span>
+                        <span><strong class="text-slate-900">GBP/BRL</strong> COMERCIAL <span class="text-emerald-600 font-semibold">LIQUIDAÇÃO ÁGIL</span></span>
+                        <span class="text-slate-300">•</span>
+                        <span><strong class="text-slate-900">CNY/BRL</strong> IMPORTAÇÃO DIRETA <span class="text-amber-700 font-semibold">TRADE FINANCE</span></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Direct Top Contacts & Language Switcher -->
+            <div class="flex items-center gap-3 sm:gap-5 shrink-0">
+                <a href="tel:+551135662664" class="hidden md:flex items-center gap-1.5 text-slate-600 hover:text-blue-700 font-medium transition">
+                    <i data-lucide="phone" class="w-3.5 h-3.5 text-blue-600"></i>
+                    <span class="font-mono">(11) 3566-2664</span>
+                </a>
+                <a href="https://wa.me/5511992545976?text=Ol%C3%A1%2C%20vim%20pelo%20site%20cambioempresas.com.br%20e%20gostaria%20de%20conversar%20com%20um%20especialista." target="_blank" rel="noopener noreferrer" class="hidden sm:flex items-center gap-1.5 text-emerald-700 hover:text-emerald-600 font-bold transition">
+                    <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-600"></i>
+                    <span class="font-mono">(11) 99254-5976</span>
+                </a>
+                
+                <!-- Language Switcher (PT | EN) -->
+                <div class="flex items-center bg-slate-200/80 p-0.5 rounded-lg border border-slate-300/80">
+                    <button id="lang-pt" onclick="setLanguage('pt')" class="px-2.5 py-1 rounded-md text-[11px] font-bold tracking-wide transition bg-blue-700 text-white shadow-sm">
+                        PT-BR
+                    </button>
+                    <button id="lang-en" onclick="setLanguage('en')" class="px-2.5 py-1 rounded-md text-[11px] font-bold tracking-wide transition text-slate-600 hover:text-slate-900">
+                        EN-US
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER / NAVIGATION (FROSTED WHITE) -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+            
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center gap-3 group shrink-0">
+                <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-blue-700 to-sky-600 p-0.5 shadow-md">
+                    <div class="w-full h-full bg-white rounded-[10px] flex items-center justify-center">
+                        <svg class="w-6 h-6 text-blue-700 group-hover:scale-110 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                            <circle cx="12" cy="12" r="10" class="stroke-sky-500/60" stroke-width="1.5"/>
+                            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            <path d="M16 8l-4 4-4-4" class="stroke-emerald-600"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-1">
+                        <span class="text-lg sm:text-xl font-extrabold tracking-tight text-slate-900">CÂMBIO</span>
+                        <span class="text-lg sm:text-xl font-extrabold tracking-tight text-blue-700">EMPRESAS</span>
+                    </div>
+                    <span class="block text-[10px] font-mono uppercase tracking-widest text-slate-500">cambioempresas.com.br</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden xl:flex items-center gap-6 text-sm font-semibold text-slate-600">
+                <a href="#parceiros" class="hover:text-blue-700 transition" data-i18n="nav_partners">Bancos & Plataforma</a>
+                <a href="#solucoes" class="hover:text-blue-700 transition" data-i18n="nav_solutions">Soluções B2B</a>
+                <a href="#vantagens" class="hover:text-blue-700 transition" data-i18n="nav_advantages">Diferenciais</a>
+                <a href="#contato" class="hover:text-blue-700 transition" data-i18n="nav_contact">Contato</a>
+            </nav>
+
+            <!-- Action CTAs (Including Performance de Exportação Button) -->
+            <div class="hidden sm:flex items-center gap-2.5">
+                <!-- 1. Botão Performance de Exportação -->
+                <a href="https://performanceexportacao.com.br" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-800 border border-blue-200 font-bold text-xs sm:text-sm flex items-center gap-1.5 shadow-sm transition">
+                    <i data-lucide="trending-up" class="w-4 h-4 text-blue-700"></i>
+                    <span data-i18n="btn_perf_exp">Performance de Exportação</span>
+                    <i data-lucide="external-link" class="w-3.5 h-3.5 text-blue-600"></i>
+                </a>
+
+                <a href="https://wa.me/5511992545976?text=Ol%C3%A1%2C%20vim%20pelo%20site%20cambioempresas.com.br%20e%20gostaria%20de%20conversar%20com%20um%20especialista." target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm flex items-center gap-2 shadow-emerald-glow transition">
+                    <i data-lucide="message-square" class="w-4 h-4"></i>
+                    <span data-i18n="header_cta">Falar no WhatsApp</span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="xl:hidden p-2.5 rounded-xl bg-slate-100 text-slate-700 border border-slate-200">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden xl:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3 shadow-lg">
+            <a href="#parceiros" onclick="toggleMobileMenu()" class="block py-2 text-slate-700 font-semibold border-b border-slate-100" data-i18n="nav_partners">Bancos & Plataforma</a>
+            <a href="#solucoes" onclick="toggleMobileMenu()" class="block py-2 text-slate-700 font-semibold border-b border-slate-100" data-i18n="nav_solutions">Soluções B2B</a>
+            <a href="#vantagens" onclick="toggleMobileMenu()" class="block py-2 text-slate-700 font-semibold border-b border-slate-100" data-i18n="nav_advantages">Diferenciais</a>
+            <a href="#contato" onclick="toggleMobileMenu()" class="block py-2 text-slate-700 font-semibold border-b border-slate-100" data-i18n="nav_contact">Contato</a>
+            
+            <div class="pt-3 grid grid-cols-1 gap-2.5">
+                <a href="https://performanceexportacao.com.br" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-blue-50 text-blue-800 border border-blue-200 font-bold text-center flex items-center justify-center gap-2 shadow-sm">
+                    <i data-lucide="trending-up" class="w-4 h-4 text-blue-700"></i>
+                    <span data-i18n="btn_perf_exp">Performance de Exportação</span>
+                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                </a>
+                <a href="https://wa.me/5511992545976?text=Ol%C3%A1%2C%20vim%20pelo%20site%20cambioempresas.com.br%20e%20gostaria%20de%20conversar%20com%20um%20especialista." target="_blank" class="w-full py-3 rounded-xl bg-emerald-600 text-white font-bold text-center flex items-center justify-center gap-2 shadow-sm">
+                    <i data-lucide="message-circle" class="w-4 h-4"></i>
+                    <span>WhatsApp: (11) 99254-5976</span>
+                </a>
+                <a href="tel:+551135662664" class="w-full py-3 rounded-xl bg-slate-100 text-slate-800 font-semibold text-center flex items-center justify-center gap-2 border border-slate-200">
+                    <i data-lucide="phone-call" class="w-4 h-4 text-blue-600"></i>
+                    <span>Fixo: (11) 3566-2664</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (BRIGHT, CLEAN & CONSULTATIVE POSITIONING) -->
+    <section class="relative pt-12 pb-20 lg:pt-16 lg:pb-24 bg-gradient-to-b from-sky-50/70 via-white to-white bg-grid-light overflow-hidden">
+        <!-- Soft Ambient Pastels -->
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-sky-200/40 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-100/50 rounded-full blur-[130px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Column: Institutional Value Proposition -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-sky-50 border border-sky-200 text-blue-800 text-xs font-bold tracking-wide shadow-sm">
+                        <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i>
+                        <span data-i18n="hero_badge">2 BANCOS DE CÂMBIO + 1 PLATAFORMA GLOBAL • REPRESENTAÇÃO OFICIAL</span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-5xl lg:text-[50px] font-extrabold tracking-tight text-slate-900 leading-[1.13]">
+                        <span data-i18n="hero_title_1">Câmbio Corporativo e Tesouraria Global com</span>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-sky-600 to-emerald-600" data-i18n="hero_title_highlight"> Direcionamento Estratégico.</span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl" data-i18n="hero_subtitle">
+                        Representamos oficialmente o <strong class="text-slate-900 font-semibold">Ouribank</strong>, o <strong class="text-slate-900 font-semibold">Moneycorp Banco de Câmbio</strong> e a plataforma americana <strong class="text-slate-900 font-semibold">Tensec</strong>. Entendemos profundamente a operação da sua empresa antes mesmo da abertura da conta e direcionamos para o parceiro ideal de acordo com a sua necessidade.
+                    </p>
+
+                    <!-- Primary Contact & Action Buttons -->
+                    <div class="pt-2 flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-4">
+                        <a href="https://wa.me/5511992545976?text=Ol%C3%A1%2C%20vim%20pelo%20site%20cambioempresas.com.br%20e%20gostaria%20de%20conversar%20sobre%20as%20opera%C3%A7%C3%B5es%20de%20c%C3%A2mbio%20da%20minha%20empresa." target="_blank" rel="noopener noreferrer" class="px-6 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-base flex items-center justify-center gap-3 shadow-emerald-glow transition transform hover:-translate-y-0.5">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i>
+                            <div class="text-left">
+                                <span class="block text-xs font-semibold uppercase tracking-wider text-emerald-50" data-i18n="hero_btn_wa_sub">Atendimento via WhatsApp</span>
+                                <span class="font-mono text-base">(11) 99254-5976</span>
+                            </div>
+                        </a>
+
+                        <a href="tel:+551135662664" class="px-6 py-4 rounded-xl bg-white hover:bg-slate-50 text-slate-900 font-bold text-base flex items-center justify-center gap-3 border border-slate-200 shadow-soft transition">
+                            <div class="w-9 h-9 rounded-lg bg-sky-50 border border-sky-200 flex items-center justify-center text-blue-700">
+                                <i data-lucide="phone-call" class="w-4 h-4"></i>
+                            </div>
+                            <div class="text-left">
+                                <span class="block text-xs font-medium text-slate-500" data-i18n="hero_btn_tel_sub">Telefone Fixo</span>
+                                <span class="font-mono text-base text-slate-900">(11) 3566-2664</span>
+                            </div>
+                        </a>
+
+                        <!-- Botão Performance de Exportação em destaque também no Hero -->
+                        <a href="https://performanceexportacao.com.br" target="_blank" rel="noopener noreferrer" class="px-5 py-4 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-800 font-bold text-sm flex items-center justify-center gap-2.5 border border-blue-200 shadow-sm transition">
+                            <i data-lucide="trending-up" class="w-5 h-5 text-blue-700"></i>
+                            <span data-i18n="btn_perf_exp">Performance de Exportação</span>
+                            <i data-lucide="external-link" class="w-4 h-4 text-blue-600"></i>
+                        </a>
+                    </div>
+
+                    <!-- Trust Metrics Bar -->
+                    <div class="pt-6 border-t border-slate-200 grid grid-cols-3 gap-4 sm:gap-8">
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold font-mono text-slate-900">+150</div>
+                            <div class="text-xs sm:text-sm text-slate-500 font-medium mt-0.5" data-i18n="metric_countries">Países Conectados</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold font-mono text-emerald-600">+70</div>
+                            <div class="text-xs sm:text-sm text-slate-500 font-medium mt-0.5" data-i18n="metric_currencies">Moedas Operacionais</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold font-mono text-blue-700">D+0 / D+1</div>
+                            <div class="text-xs sm:text-sm text-slate-500 font-medium mt-0.5" data-i18n="metric_settlement">Liquidação Internacional</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Ecossistema Completo com os 3 LOGOS OFICIAIS (Alterações 2 e 3) -->
+                <div class="lg:col-span-5">
+                    <div class="clean-card rounded-2xl p-6 sm:p-8 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 px-3 py-1 bg-sky-50 border-b border-l border-sky-200 rounded-bl-xl text-[11px] font-mono text-blue-700 font-bold" data-i18n="hub_tag">
+                            ECOSSISTEMA COMPLETO
+                        </div>
+
+                        <h2 class="text-lg font-extrabold text-slate-900 mb-1.5" data-i18n="hub_title">Ecossistema Oficial Representado</h2>
+                        <p class="text-xs text-slate-600 mb-6 leading-relaxed" data-i18n="hub_desc">
+                            Analisamos o perfil e a estrutura da sua operação para conectar sua empresa à instituição financeira ideal:
+                        </p>
+
+                        <!-- 3 Partner Cards with OFFICIAL LOGOS in Hero -->
+                        <div class="space-y-4">
+                            <!-- Ouribank Card with Official Logo -->
+                            <a href="https://www.ouribank.com/" target="_blank" rel="noopener noreferrer" class="block p-4 rounded-xl bg-white hover:bg-amber-50/30 border border-slate-200 hover:border-amber-300 shadow-sm transition group">
+                                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                    <div class="h-12 w-44 bg-white rounded-lg flex items-center shrink-0">
+                                        <svg class="w-full h-full"><use href="#logo-ouribank"></use></svg>
+                                    </div>
+                                    <span class="self-start sm:self-center text-[10px] px-2.5 py-1 rounded-full bg-amber-50 text-amber-800 border border-amber-200 font-mono font-semibold" data-i18n="ouri_badge">
+                                        Banco de Câmbio
+                                    </span>
+                                </div>
+                                <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600">
+                                    <span data-i18n="hero_ouri_desc">+40 anos de tradição • Trade Finance, ACC/ACE, Finimp & Hedge</span>
+                                    <i data-lucide="external-link" class="w-3.5 h-3.5 text-slate-400 group-hover:text-amber-600 transition shrink-0 ml-2"></i>
+                                </div>
+                            </a>
+
+                            <!-- Moneycorp Card with Official Logo -->
+                            <a href="https://www.moneycorp.com/" target="_blank" rel="noopener noreferrer" class="block p-4 rounded-xl bg-white hover:bg-sky-50/40 border border-slate-200 hover:border-sky-300 shadow-sm transition group">
+                                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                    <div class="h-12 w-48 bg-white rounded-lg flex items-center shrink-0">
+                                        <svg class="w-full h-full"><use href="#logo-moneycorp"></use></svg>
+                                    </div>
+                                    <span class="self-start sm:self-center text-[10px] px-2.5 py-1 rounded-full bg-sky-50 text-blue-800 border border-sky-200 font-mono font-semibold" data-i18n="mc_badge">
+                                        Banco Global
+                                    </span>
+                                </div>
+                                <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600">
+                                    <span data-i18n="hero_mc_desc">+47 anos no mundo • Câmbio Pronto, Futuro & Mass Payments</span>
+                                    <i data-lucide="external-link" class="w-3.5 h-3.5 text-slate-400 group-hover:text-blue-600 transition shrink-0 ml-2"></i>
+                                </div>
+                            </a>
+
+                            <!-- Tensec Card with Official Logo -->
+                            <a href="https://tensec.io/" target="_blank" rel="noopener noreferrer" class="block p-4 rounded-xl bg-white hover:bg-emerald-50/30 border border-slate-200 hover:border-emerald-300 shadow-sm transition group">
+                                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                    <div class="h-12 w-40 bg-white rounded-lg flex items-center shrink-0">
+                                        <svg class="w-full h-full"><use href="#logo-tensec"></use></svg>
+                                    </div>
+                                    <span class="self-start sm:self-center text-[10px] px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 font-mono font-semibold" data-i18n="tensec_badge">
+                                        Plataforma Global
+                                    </span>
+                                </div>
+                                <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600">
+                                    <span data-i18n="hero_tensec_desc">Tesouraria Cross-Border em tempo real • Fedwire, ACH & SWIFT</span>
+                                    <i data-lucide="external-link" class="w-3.5 h-3.5 text-slate-400 group-hover:text-emerald-600 transition shrink-0 ml-2"></i>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Bottom Consultative Note (Sem menção a cadastro único ou cotação simultânea) -->
+                        <div class="mt-6 pt-4 border-t border-slate-200 flex items-center gap-2.5 text-xs text-slate-600 font-medium">
+                            <i data-lucide="compass" class="w-4 h-4 text-blue-700 shrink-0"></i>
+                            <span data-i18n="hub_footer">Diagnóstico consultivo prévio para direcionar sua empresa ao parceiro ideal</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFICIAL PARTNERS SECTION (REPRESENTAÇÃO INSTITUCIONAL OFICIAL COM OS 3 LOGOS - Alteração 4) -->
+    <section id="parceiros" class="py-20 bg-slate-50 border-y border-slate-200 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-xs font-mono uppercase tracking-widest text-blue-700 font-bold px-3.5 py-1.5 rounded-full bg-sky-100 border border-sky-200" data-i18n="partners_eyebrow">
+                    REPRESENTAÇÃO INSTITUCIONAL OFICIAL
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-4 tracking-tight" data-i18n="partners_title">
+                    Dois Bancos Especialistas e Uma Plataforma Global ao Seu Lado
+                </h2>
+                <p class="text-slate-600 mt-3 text-base" data-i18n="partners_subtitle">
+                    A <strong class="text-slate-900 font-semibold">Câmbio Empresas</strong> avalia as particularidades de cada operação para conectar o seu negócio à instituição mais adequada para a sua necessidade nacional e internacional.
+                </p>
+            </div>
+
+            <!-- 3 Detailed Partner Cards with Official Visual Logos -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
+                <!-- PARTNER 1: OURIBANK -->
+                <div class="clean-card clean-card-hover rounded-2xl p-7 flex flex-col justify-between relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600"></div>
+                    
+                    <div>
+                        <!-- Official Logo Header -->
+                        <div class="flex items-center justify-between pb-6 mb-6 border-b border-slate-100">
+                            <div class="h-14 w-48 flex items-center">
+                                <svg class="w-full h-full"><use href="#logo-ouribank"></use></svg>
+                            </div>
+                            <a href="https://www.ouribank.com/" target="_blank" rel="noopener noreferrer" class="p-2 rounded-lg bg-slate-50 hover:bg-amber-50 text-slate-500 hover:text-amber-700 border border-slate-200 transition" title="ouribank.com">
+                                <i data-lucide="external-link" class="w-4 h-4"></i>
+                            </a>
+                        </div>
+
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6" data-i18n="ouri_body">
+                            Com mais de <strong class="text-slate-900 font-semibold">40 anos de solidez</strong> no mercado financeiro brasileiro (antigo Banco Ourinvest), o Ouribank é referência absoluta em operações estruturadas de câmbio comercial, linhas de comércio exterior e atendimento corporativo personalizado.
+                        </p>
+
+                        <!-- Key Offerings List -->
+                        <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700 mb-8">
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-amber-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="ouri_feat_1">Câmbio Pronto (Importação, Exportação e Remessas Financeiras)</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-amber-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="ouri_feat_2">Trade Finance: Finimp, ACC / ACE e Cartas de Crédito</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-amber-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="ouri_feat_3">Hedge Cambial, NDF, Trava de Câmbio e Contas Escrow</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-amber-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="ouri_feat_4">Assessoria em registros BACEN (SCE-IED / SCE-Crédito)</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <a href="https://www.ouribank.com/" target="_blank" rel="noopener noreferrer" class="text-xs font-mono text-slate-500 hover:text-amber-700 font-medium transition">
+                            www.ouribank.com
+                        </a>
+                        <a href="https://wa.me/5511992545976?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20as%20solu%C3%A7%C3%B5es%20do%20Ouribank%20para%20minha%20empresa." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200 text-xs font-bold flex items-center gap-1.5 transition">
+                            <span data-i18n="btn_quote_ouri">Atendimento Ouribank</span>
+                            <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PARTNER 2: MONEYCORP BANCO DE CÂMBIO -->
+                <div class="clean-card clean-card-hover rounded-2xl p-7 flex flex-col justify-between relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-red-600 via-rose-500 to-slate-600"></div>
+                    
+                    <div>
+                        <!-- Official Logo Header -->
+                        <div class="flex items-center justify-between pb-6 mb-6 border-b border-slate-100">
+                            <div class="h-14 w-52 flex items-center">
+                                <svg class="w-full h-full"><use href="#logo-moneycorp"></use></svg>
+                            </div>
+                            <a href="https://www.moneycorp.com/" target="_blank" rel="noopener noreferrer" class="p-2 rounded-lg bg-slate-50 hover:bg-sky-50 text-slate-500 hover:text-blue-700 border border-slate-200 transition" title="moneycorp.com">
+                                <i data-lucide="external-link" class="w-4 h-4"></i>
+                            </a>
+                        </div>
+
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6" data-i18n="mc_body">
+                            Fundado em Londres em 1979 (<strong class="text-slate-900 font-semibold">+47 anos de história</strong>) e com banco de câmbio próprio autorizado pelo Banco Central no Brasil, a Moneycorp oferece liquidez global em mais de 120 moedas e presença na Europa, EUA, Ásia e América Latina.
+                        </p>
+
+                        <!-- Key Offerings List -->
+                        <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700 mb-8">
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="mc_feat_1">Câmbio Pronto e Câmbio Futuro (Travamento de Taxas e NDF)</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="mc_feat_2">Pagamentos Internacionais em Massa (Mass Payments Globais)</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="mc_feat_3">Operações Corporativas com Liquidez em +120 Moedas</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="mc_feat_4">Gestão de Risco Cambial e Consultoria para Tesourarias</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <a href="https://www.moneycorp.com/" target="_blank" rel="noopener noreferrer" class="text-xs font-mono text-slate-500 hover:text-blue-700 font-medium transition">
+                            www.moneycorp.com
+                        </a>
+                        <a href="https://wa.me/5511992545976?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20as%20solu%C3%A7%C3%B5es%20da%20Moneycorp%20para%20minha%20empresa." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-lg bg-sky-50 hover:bg-sky-100 text-blue-800 border border-sky-200 text-xs font-bold flex items-center gap-1.5 transition">
+                            <span data-i18n="btn_quote_mc">Atendimento Moneycorp</span>
+                            <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PARTNER 3: TENSEC -->
+                <div class="clean-card clean-card-hover rounded-2xl p-7 flex flex-col justify-between relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-blue-500 via-sky-500 to-emerald-500"></div>
+                    
+                    <div>
+                        <!-- Official Logo Header -->
+                        <div class="flex items-center justify-between pb-6 mb-6 border-b border-slate-100">
+                            <div class="h-14 w-44 flex items-center">
+                                <svg class="w-full h-full"><use href="#logo-tensec"></use></svg>
+                            </div>
+                            <a href="https://tensec.io/" target="_blank" rel="noopener noreferrer" class="p-2 rounded-lg bg-slate-50 hover:bg-emerald-50 text-slate-500 hover:text-emerald-700 border border-slate-200 transition" title="tensec.io">
+                                <i data-lucide="external-link" class="w-4 h-4"></i>
+                            </a>
+                        </div>
+
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6" data-i18n="tensec_body">
+                            Plataforma americana de infraestrutura financeira global para comércio internacional. A <strong class="text-slate-900 font-semibold">Tensec</strong> elimina intermediários bancários tradicionais com liquidação cross-border em tempo real para mais de <strong class="text-slate-900 font-semibold">150 países e 70 moedas</strong>.
+                        </p>
+
+                        <!-- Key Offerings List -->
+                        <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700 mb-8">
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="tensec_feat_1">Acesso direto às redes bancárias dos EUA (Fedwire e ACH) e SWIFT</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="tensec_feat_2">Contas Globais Multi-Moeda e Tesouraria Corporativa 24/7</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="tensec_feat_3">Pagamentos e Recebimentos Internacionais sem fricção em D+0</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+                                <span data-i18n="tensec_feat_4">Rastreamento completo de ponta a ponta e transparência de taxas</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <a href="https://tensec.io/" target="_blank" rel="noopener noreferrer" class="text-xs font-mono text-slate-500 hover:text-emerald-700 font-medium transition">
+                            www.tensec.io
+                        </a>
+                        <a href="https://wa.me/5511992545976?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20plataforma%20global%20Tensec." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 text-xs font-bold flex items-center gap-1.5 transition">
+                            <span data-i18n="btn_quote_tensec">Atendimento Tensec</span>
+                            <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- B2B SERVICES & SOLUTIONS SECTION (PURE WHITE BACKGROUND) -->
+    <section id="solucoes" class="py-20 lg:py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+                <div>
+                    <span class="text-xs font-mono uppercase tracking-widest text-blue-700 font-bold" data-i18n="sol_eyebrow">
+                        PORTFÓLIO CORPORATIVO COMPLETO
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight" data-i18n="sol_title">
+                        Soluções de Câmbio e Comércio Exterior para Empresas
+                    </h2>
+                </div>
+                <div class="flex flex-wrap items-center gap-4 shrink-0">
+                    <a href="https://performanceexportacao.com.br" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-800 border border-blue-200 text-xs sm:text-sm font-bold transition">
+                        <span data-i18n="btn_perf_exp">Performance de Exportação</span>
+                        <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                    </a>
+                    <a href="https://wa.me/5511992545976?text=Ol%C3%A1%2C%20gostaria%20de%20consultar%20um%20especialista%20sobre%20opera%C3%A7%C3%B5es%20de%20c%C3%A2mbio%20para%20minha%20empresa." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm font-bold text-emerald-700 hover:text-emerald-600">
+                        <span data-i18n="sol_cta_link">Falar com um especialista</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 4 Core Pillar Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+                
+                <!-- Solution 1: Import & Export -->
+                <div class="clean-card clean-card-hover rounded-2xl p-7 sm:p-8">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-600 mb-6">
+                        <i data-lucide="ship" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3" data-i18n="sol_1_title">Importação, Exportação & Trade Finance</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-5" data-i18n="sol_1_desc">
+                        Liquidação ágil de pagamentos a fornecedores internacionais e recebimento de ordens do exterior com taxas competitivas e linhas de financiamento estruturadas.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Câmbio Pronto D+0/D+1</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">FINIMP</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">ACC / ACE</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Pagamento em CNY / USD / EUR</span>
+                    </div>
+                </div>
+
+                <!-- Solution 2: Financial Remittances -->
+                <div class="clean-card clean-card-hover rounded-2xl p-7 sm:p-8">
+                    <div class="w-12 h-12 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 mb-6">
+                        <i data-lucide="landmark" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3" data-i18n="sol_2_title">Remessas Financeiras & Estruturadas</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-5" data-i18n="sol_2_desc">
+                        Suporte jurídico-cambial completo para movimentações de capital societário, pagamento de serviços internacionais, tecnologia, fretes e dividendos.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Aporte de Capital (IED)</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Lucros e Dividendos</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Empréstimos Intercompany</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">SaaS & Serviços</span>
+                    </div>
+                </div>
+
+                <!-- Solution 3: Hedge & Protection -->
+                <div class="clean-card clean-card-hover rounded-2xl p-7 sm:p-8">
+                    <div class="w-12 h-12 rounded-xl bg-sky-50 border border-sky-200 flex items-center justify-center text-blue-700 mb-6">
+                        <i data-lucide="trending-up" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3" data-i18n="sol_3_title">Hedge e Proteção Cambial</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-5" data-i18n="sol_3_desc">
+                        Proteja a margem de lucro e o fluxo de caixa da sua empresa contra a volatilidade do dólar e do euro através de instrumentos de travamento de taxa.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Câmbio Futuro</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">NDF (Non-Deliverable Forward)</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Trava de Exportação/Importação</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Contas Escrow</span>
+                    </div>
+                </div>
+
+                <!-- Solution 4: Global Treasury & Multi-Currency -->
+                <div class="clean-card clean-card-hover rounded-2xl p-7 sm:p-8">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-50 border border-indigo-200 flex items-center justify-center text-indigo-600 mb-6">
+                        <i data-lucide="globe-2" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3" data-i18n="sol_4_title">Tesouraria Global & Contas Internacionais</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-5" data-i18n="sol_4_desc">
+                        Através da plataforma Tensec e Moneycorp, opere contas globais, pague múltiplos fornecedores e receba nos EUA/Europa como uma empresa local.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Fedwire & ACH Direto</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Mass Payments</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">+70 Moedas</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 font-mono font-medium">Rastreio SWIFT GPI</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPETITIVE ADVANTAGES SECTION (Alterações 5 e 6 aplicadas, Simulador removido na Alteração 7) -->
+    <section id="vantagens" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 font-bold px-3.5 py-1 rounded-full bg-emerald-50 border border-emerald-200" data-i18n="adv_eyebrow">
+                    DIFERENCIAIS COMPETITIVOS
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight" data-i18n="adv_title">
+                    Por que operar através da Câmbio Empresas?
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Advantage 1 (Alteração 6: Entendimento prévio antes de abrir a conta e direcionamento para o melhor parceiro) -->
+                <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-soft hover:border-blue-300 transition">
+                    <div class="w-11 h-11 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-700 flex items-center justify-center mb-5 font-mono font-bold">
+                        01
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2" data-i18n="adv_1_title">Entendimento Prévio e Direcionamento Ideal</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed" data-i18n="adv_1_desc">
+                        Entendemos profundamente a operação da sua empresa antes mesmo da abertura da conta e direcionamos para o melhor parceiro de acordo com a necessidade específica do cliente.
+                    </p>
+                </div>
+
+                <!-- Advantage 2 -->
+                <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-soft hover:border-blue-300 transition">
+                    <div class="w-11 h-11 rounded-xl bg-sky-50 border border-sky-200 text-blue-700 flex items-center justify-center mb-5 font-mono font-bold">
+                        02
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2" data-i18n="adv_2_title">Atendimento Consultivo Especializado</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed" data-i18n="adv_2_desc">
+                        Sem filas de call center ou gerentes generalistas. Converse com especialistas em câmbio corporativo pelo WhatsApp (11) 99254-5976 ou telefone fixo (11) 3566-2664.
+                    </p>
+                </div>
+
+                <!-- Advantage 3 -->
+                <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-soft hover:border-blue-300 transition">
+                    <div class="w-11 h-11 rounded-xl bg-amber-50 border border-amber-200 text-amber-700 flex items-center justify-center mb-5 font-mono font-bold">
+                        03
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2" data-i18n="adv_3_title">Liquidação Ágil D+0 e D+1</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed" data-i18n="adv_3_desc">
+                        Agilidade no processamento de contratos e emissão de comprovantes SWIFT / Fedwire para seus fornecedores no exterior, otimizando o fluxo da sua operação.
+                    </p>
+                </div>
+
+                <!-- Advantage 4 -->
+                <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-soft hover:border-blue-300 transition">
+                    <div class="w-11 h-11 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-700 flex items-center justify-center mb-5 font-mono font-bold">
+                        04
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2" data-i18n="adv_4_title">Compliance & Segurança BACEN</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed" data-i18n="adv_4_desc">
+                        Todas as operações são cursadas diretamente nas instituições parceiras autorizadas pelo Banco Central do Brasil e órgãos reguladores globais.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DEDICATED CONTACT SECTION (Alteração 8: Sem menções a "conversa imediata com a mesa" ou "mesa de câmbio") -->
+    <section id="contato" class="py-20 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Left Column: Direct Channels -->
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-xs font-mono uppercase tracking-widest text-blue-700 font-bold" data-i18n="contact_eyebrow">
+                        CANAIS DE ATENDIMENTO CORPORATIVO
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight" data-i18n="contact_title">
+                        Fale com Nossos Especialistas
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base leading-relaxed" data-i18n="contact_desc">
+                        Conte conosco para analisar a operação da sua empresa, esclarecer dúvidas sobre enquadramento cambial e direcionar o seu negócio para a solução ideal junto ao <strong class="text-slate-900 font-semibold">Ouribank</strong>, <strong class="text-slate-900 font-semibold">Moneycorp</strong> ou <strong class="text-slate-900 font-semibold">Tensec</strong>.
+                    </p>
+
+                    <!-- Highlighted Contact Cards -->
+                    <div class="space-y-4 pt-2">
+                        
+                        <!-- WhatsApp Card -->
+                        <a href="https://wa.me/5511992545976?text=Ol%C3%A1%2C%20vim%20pelo%20site%20cambioempresas.com.br%20e%20gostaria%20de%20atendimento%20corporativo." target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 p-5 rounded-2xl bg-slate-50/70 hover:bg-emerald-50/50 border border-emerald-200 shadow-soft transition group">
+                            <div class="w-14 h-14 rounded-2xl bg-emerald-600 text-white flex items-center justify-center shrink-0 shadow-emerald-glow group-hover:scale-105 transition">
+                                <i data-lucide="message-circle" class="w-7 h-7"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs font-mono uppercase tracking-wider text-emerald-700 font-bold" data-i18n="contact_wa_label">WHATSAPP CORPORATIVO / CELULAR</span>
+                                <div class="text-2xl font-mono font-extrabold text-slate-900 mt-0.5">(11) 99254-5976</div>
+                                <span class="text-xs text-slate-500" data-i18n="contact_wa_sub">Atendimento consultivo para empresas via WhatsApp</span>
+                            </div>
+                        </a>
+
+                        <!-- Landline Phone Card -->
+                        <a href="tel:+551135662664" class="flex items-center gap-4 p-5 rounded-2xl bg-slate-50/70 hover:bg-sky-50/50 border border-slate-200 shadow-soft transition group">
+                            <div class="w-14 h-14 rounded-2xl bg-sky-50 border border-sky-200 text-blue-700 flex items-center justify-center shrink-0 group-hover:scale-105 transition">
+                                <i data-lucide="phone-call" class="w-7 h-7"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs font-mono uppercase tracking-wider text-blue-700 font-bold" data-i18n="contact_tel_label">TELEFONE FIXO • SÃO PAULO</span>
+                                <div class="text-2xl font-mono font-extrabold text-slate-900 mt-0.5">(11) 3566-2664</div>
+                                <span class="text-xs text-slate-500" data-i18n="contact_tel_sub">Atendimento comercial de Segunda a Sexta, 9h às 18h</span>
+                            </div>
+                        </a>
+
+                        <!-- Performance de Exportação Card Link -->
+                        <a href="https://performanceexportacao.com.br" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between gap-4 p-4 rounded-2xl bg-blue-50/60 hover:bg-blue-100/60 border border-blue-200 transition group">
+                            <div class="flex items-center gap-3.5">
+                                <div class="w-11 h-11 rounded-xl bg-white border border-blue-200 text-blue-700 flex items-center justify-center shrink-0 shadow-sm">
+                                    <i data-lucide="trending-up" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs font-bold text-blue-800 block" data-i18n="btn_perf_exp">Performance de Exportação</span>
+                                    <span class="text-xs font-mono text-slate-600">performanceexportacao.com.br</span>
+                                </div>
+                            </div>
+                            <i data-lucide="external-link" class="w-4 h-4 text-blue-700 group-hover:translate-x-0.5 transition"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Right Column: Corporate Contact Form -->
+                <div class="lg:col-span-7">
+                    <div class="clean-card rounded-2xl p-6 sm:p-8">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2" data-i18n="form_title">Solicitar Atendimento Consultivo</h3>
+                        <p class="text-xs text-slate-500 mb-6" data-i18n="form_subtitle">Preencha os dados básicos da sua operação para entendermos a sua necessidade e indicarmos a melhor solução:</p>
+
+                        <form id="quote-form" onsubmit="handleQuoteSubmit(event)" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 mb-1.5" data-i18n="form_company">Razão Social ou Nome da Empresa *</label>
+                                    <input type="text" id="f-company" required placeholder="Ex: Tech Global Importadora Ltda" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-sm focus:outline-none focus:bg-white focus:border-blue-600 transition">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 mb-1.5" data-i18n="form_name">Seu Nome e Cargo *</label>
+                                    <input type="text" id="f-name" required placeholder="Ex: Carlos Mendes - Diretor Financeiro" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-sm focus:outline-none focus:bg-white focus:border-blue-600 transition">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 mb-1.5" data-i18n="form_phone">Telefone / WhatsApp *</label>
+                                    <input type="tel" id="f-phone" required placeholder="(11) 99999-9999" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-sm focus:outline-none focus:bg-white focus:border-blue-600 transition">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 mb-1.5" data-i18n="form_partner">Parceiro de Interesse</label>
+                                    <select id="f-partner" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-sm focus:outline-none focus:bg-white focus:border-blue-600 transition">
+                                        <option value="Avaliar melhor parceiro para minha operação" data-i18n="form_opt_all">Ajudar a escolher o parceiro ideal</option>
+                                        <option value="Ouribank">Ouribank (Câmbio & Trade Finance)</option>
+                                        <option value="Moneycorp Banco de Câmbio">Moneycorp Banco de Câmbio</option>
+                                        <option value="Tensec Plataforma Global">Tensec (Tesouraria Global)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 mb-1.5" data-i18n="form_op_type">Tipo de Demanda</label>
+                                    <select id="f-demand" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-sm focus:outline-none focus:bg-white focus:border-blue-600 transition">
+                                        <option value="Importação / Pagamento a Fornecedor">Importação / Pagamento a Fornecedor</option>
+                                        <option value="Exportação / Recebimento do Exterior">Exportação / Recebimento do Exterior</option>
+                                        <option value="Remessa Financeira / Dividendos / Aporte">Remessa Financeira / Dividendos / Aporte</option>
+                                        <option value="Hedge Cambial / NDF / Câmbio Futuro">Hedge Cambial / NDF / Câmbio Futuro</option>
+                                        <option value="Conta Internacional / Tesouraria Global">Conta Internacional / Tesouraria Global</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 mb-1.5" data-i18n="form_amount">Moeda e Valor Estimado</label>
+                                    <input type="text" id="f-amount" placeholder="Ex: USD 85,000.00" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-sm focus:outline-none focus:bg-white focus:border-blue-600 transition">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-700 mb-1.5" data-i18n="form_notes">Observações sobre a Operação (Opcional)</label>
+                                <textarea id="f-notes" rows="2" placeholder="Informe país de destino/origem ou detalhes da sua necessidade..." class="w-full px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-sm focus:outline-none focus:bg-white focus:border-blue-600 transition"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-4 px-6 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-base flex items-center justify-center gap-2 shadow-emerald-glow transition">
+                                <i data-lucide="send" class="w-5 h-5"></i>
+                                <span data-i18n="form_submit">Enviar Solicitação via WhatsApp</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-100 border-t border-slate-200 pt-14 pb-10 text-sm text-slate-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-200">
+                
+                <!-- Col 1: Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2.5">
+                        <div class="w-8 h-8 rounded-lg bg-blue-700 flex items-center justify-center text-white font-black">C</div>
+                        <span class="text-lg font-extrabold text-slate-900">CÂMBIO <span class="text-blue-700">EMPRESAS</span></span>
+                    </div>
+                    <p class="text-xs text-slate-600 leading-relaxed" data-i18n="footer_about">
+                        Soluções corporativas em câmbio comercial, financeiro, hedge e tesouraria internacional. Representação institucional Ouribank, Moneycorp Banco de Câmbio e Tensec.
+                    </p>
+                    <div class="font-mono text-xs font-bold text-blue-700">cambioempresas.com.br</div>
+                </div>
+
+                <!-- Col 2: Official Partners & Performance de Exportação -->
+                <div>
+                    <h4 class="text-slate-900 font-bold mb-4 text-xs font-mono uppercase tracking-wider" data-i18n="footer_partners_title">Parceiros & Links</h4>
+                    <ul class="space-y-2.5 text-xs font-medium">
+                        <li>
+                            <a href="https://www.ouribank.com/" target="_blank" rel="noopener noreferrer" class="hover:text-amber-700 flex items-center gap-1.5 transition">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5 text-amber-600"></i>
+                                <span>Ouribank (ouribank.com)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.moneycorp.com/" target="_blank" rel="noopener noreferrer" class="hover:text-blue-700 flex items-center gap-1.5 transition">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5 text-blue-600"></i>
+                                <span>Moneycorp Banco de Câmbio (moneycorp.com)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tensec.io/" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-700 flex items-center gap-1.5 transition">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5 text-emerald-600"></i>
+                                <span>Tensec Global Treasury (tensec.io)</span>
+                            </a>
+                        </li>
+                        <li class="pt-1">
+                            <a href="https://performanceexportacao.com.br" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-800 font-bold flex items-center gap-1.5 transition">
+                                <i data-lucide="trending-up" class="w-3.5 h-3.5 text-blue-700"></i>
+                                <span data-i18n="btn_perf_exp">Performance de Exportação</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Solutions -->
+                <div>
+                    <h4 class="text-slate-900 font-bold mb-4 text-xs font-mono uppercase tracking-wider" data-i18n="footer_sol_title">Operações Corporativas</h4>
+                    <ul class="space-y-2 text-xs font-medium">
+                        <li><a href="#solucoes" class="hover:text-blue-700 transition" data-i18n="footer_s1">Câmbio Importação & Exportação</a></li>
+                        <li><a href="#solucoes" class="hover:text-blue-700 transition" data-i18n="footer_s2">FINIMP, ACC / ACE & Trade Finance</a></li>
+                        <li><a href="#solucoes" class="hover:text-blue-700 transition" data-i18n="footer_s3">Hedge Cambial, NDF & Câmbio Futuro</a></li>
+                        <li><a href="#solucoes" class="hover:text-blue-700 transition" data-i18n="footer_s4">Tesouraria Cross-Border & Fedwire/ACH</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Direct Contact -->
+                <div>
+                    <h4 class="text-slate-900 font-bold mb-4 text-xs font-mono uppercase tracking-wider" data-i18n="footer_contact_title">Canais de Atendimento</h4>
+                    <ul class="space-y-3 text-xs">
+                        <li>
+                            <a href="https://wa.me/5511992545976" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-emerald-700 hover:text-emerald-600 font-mono font-bold">
+                                <i data-lucide="message-circle" class="w-4 h-4 text-emerald-600"></i>
+                                <span>WhatsApp: (11) 99254-5976</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+551135662664" class="flex items-center gap-2 text-slate-800 hover:text-blue-700 font-mono font-bold">
+                                <i data-lucide="phone" class="w-4 h-4 text-blue-600"></i>
+                                <span>Fixo: (11) 3566-2664</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+                <p>© 2026 <strong class="text-slate-800">cambioempresas.com.br</strong> — Todos os direitos reservados.</p>
+                <p data-i18n="footer_regulatory">Operações intermediadas e liquidadas através de instituições autorizadas pelo Banco Central do Brasil e reguladores internacionais.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP ACTION BUTTON -->
+    <a href="https://wa.me/5511992545976?text=Ol%C3%A1%2C%20vim%20pelo%20site%20cambioempresas.com.br%20e%20gostaria%20de%20conversar%20com%20um%20especialista." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold px-4 py-3.5 rounded-full shadow-2xl whatsapp-pulse transition group" aria-label="Falar pelo WhatsApp">
+        <i data-lucide="message-circle" class="w-6 h-6"></i>
+        <span class="hidden sm:inline text-sm font-mono pr-1">(11) 99254-5976</span>
+    </a>

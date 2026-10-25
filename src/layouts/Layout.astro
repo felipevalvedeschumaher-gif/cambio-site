@@ -1,0 +1,29 @@
+---
+import headHtml from "../partials/head.html?raw";
+
+const { title, description } = Astro.props;
+const pathname = Astro.url.pathname.replace(/\/index\.html$/, "/").replace(/\.html$/, "") || "/";
+const canonical = new URL(pathname, Astro.site).href;
+---
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Câmbio Empresas" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <Fragment set:html={headHtml} />
+</head>
+<body class="antialiased selection:bg-sky-100 selection:text-blue-900">
+  <slot />
+  <script src="/site.js" defer></script>
+</body>
+</html>
